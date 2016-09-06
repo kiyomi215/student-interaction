@@ -4,6 +4,7 @@
   "description": "track student-student interaction",
   "main": "null",
   "scripts": {
+    "start": "webpack-dev-server",
     "test": "npm test"
   },
   "author": "keeley nakamoto",
