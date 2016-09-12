@@ -7,7 +7,6 @@ module.exports = {
 				console.log('Error while fetching all students.', err);
 			}
 		})
-
 	},
 
 	getOne: function(id, callback) {
@@ -63,5 +62,5 @@ module.exports = {
 			}
 		})
 	}
-}
+};
 

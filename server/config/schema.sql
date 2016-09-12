@@ -7,13 +7,14 @@ USE student_interaction;
 CREATE TABLE students (
 	id integer NOT NULL AUTO_INCREMENT,
 	name varChar(30),
+	cohort integer NOT NULL
 	PRIMARY KEY (id)
 );
 
 CREATE TABLE tapouts (
 	id integer NOT NULL AUTO_INCREMENT,
 	name varChar(10),
-	PRIMARY KEY (id)	
+	PRIMARY KEY (id)
 );
 
 CREATE TABLE projects (

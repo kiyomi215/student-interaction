@@ -1,7 +1,9 @@
-export function addStudent(student) {
+let nextStudentId = 0;
+export const addStudent = (student) => {
 	return {
-		type: 'addStudent',
-		student
+		type: 'ADD_STUDENT',
+    id: nextStudentId++,
+    student
 	}
 }
 
